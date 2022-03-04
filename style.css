@@ -1,0 +1,559 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  background-image: url(stars-changing-colors.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  width: 50%;
+  height: 5%;
+  margin-left: 25%;
+  background-color: rgb(97, 50, 226);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+}
+
+.nav-item a:hover {
+  transition: 3ms;
+  color: yellow;
+}
+
+.nav-item-classes {
+}
+
+.nav-item-hire {
+}
+
+.img-logo {
+}
+
+.nav-item-img {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.nav-item-donate {
+}
+
+.btn-main {
+  background: yellow;
+  border-radius: 5px;
+}
+
+.btn-main:hover {
+  background: red;
+  transition: 1s;
+}
+
+.btn-main a {
+  color: black;
+}
+
+.opportunity-container {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  background-color: white;
+  padding: 50px;
+  background-image: url(kidsBackground.gif);
+  background-repeat: no-repeat;
+  background-size: 999px 520px;
+}
+
+.opp-header {
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  background-color: skyblue;
+  border-radius: 15px;
+  width: 70%;
+  margin-left: 17%;
+  font-family: "Kanit", sans-serif;
+}
+
+.l {
+  color: red;
+}
+
+.t {
+  color: yellow;
+}
+
+.d {
+  color: blue;
+}
+
+.opp-para {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: skyblue;
+  border-radius: 15px;
+  width: 80%;
+  margin-left: 12%;
+  padding-bottom: 8px;
+}
+
+.watch-btn {
+  border: none;
+  border-radius: 30px;
+  background: rgb(97, 50, 226);
+  width: 20%;
+  margin-right: 10%;
+  height: 70px;
+}
+
+.watch-btn a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.watch-btn:hover {
+  background: red;
+  transition: 5ms;
+  cursor: pointer;
+}
+
+.why-container {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  padding: 50px;
+}
+
+.why-container p {
+  font-size: 18px;
+}
+
+.gym-visit-container {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  flex-direction: row;
+  background-color: rgb(248, 106, 106);
+  color: white;
+  padding: 60px;
+}
+
+.gym-text {
+  padding-right: 20px;
+}
+
+.visit-text {
+  padding-left: 20px;
+}
+
+.volunteer-container {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  padding: 60px;
+}
+
+.volunteer-container p {
+  font-size: 18px;
+}
+
+.btn-two {
+  border-radius: 10px;
+  background: skyblue;
+  width: 45%;
+  padding: 5px;
+}
+
+.btn-two a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-two:hover {
+  font-weight: bolder;
+  background: blue;
+  transition: 20ms;
+}
+
+.btn-two a:hover {
+  color: white;
+  font-weight: bolder;
+  transition: 10ms;
+}
+
+.img-gif {
+  width: 279px;
+  height: 130px;
+}
+
+.volunteer-btn {
+  width: 15%;
+  margin-left: 42%;
+}
+
+.opportunity-text {
+  text-align: center;
+  padding-bottom: 35px;
+  margin-left: 10%;
+}
+
+.video-text {
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+}
+
+.play-logo {
+  vertical-align: middle;
+}
+
+footer {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  background-color: yellow;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.icons-footer {
+  margin-right: 10%;
+  padding-top: 10px;
+}
+
+.icon-list {
+  list-style: none;
+}
+
+.site-map-footer {
+  margin-right: 15%;
+}
+
+.site-map-list {
+  list-style: none;
+}
+
+.site-map-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.site-map-list a:hover {
+  color: blue;
+}
+
+.footer-adderess {
+  margin-right: 30%;
+  list-style: none;
+}
+
+.mailto {
+  color: black;
+}
+
+.mailto:hover {
+  color: red;
+}
+
+.break-line-footer {
+  list-style: none;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 40%;
+}
+
+/*MODAL POPUP STYLES*/
+
+.modal {
+  display: none; /*the modal wont display unless clicked with JS */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  overflow: auto; /*enables scroll bar if needed */
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.modal-content {
+  background: url(https://cdn.wallpapersafari.com/78/70/XIbUE1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20% auto;
+
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  animation-name: modalopen;
+  animation-duration: 2s;
+}
+
+.modal-header {
+  padding: 20px;
+  color: white;
+}
+
+.modal-body {
+  padding: 10px 20px;
+}
+
+.closeBtn {
+  color: red;
+  float: right;
+  font-size: 30px;
+  color: black;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*create key frame from animation property in modal-content */
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*CONTACT FORM STYLES*/
+.contact-title {
+  margin-top: 100px;
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-tile h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+  text-align: center;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: palevioletred;
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+.invalid {
+  border: 3px solid red;
+}
+
+/* ABOUT PAGE STYLES */
+
+.why-two {
+  background: rgb(97, 50, 226);
+}
+
+.about-heading {
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+}
+
+.video {
+  margin-left: 15%;
+}
+
+.about-one {
+  background: palevioletred;
+  color: white;
+  text-align: left;
+}
+
+.early {
+  text-align: center;
+  font-size: 30px;
+}
+
+.boy-img {
+  height: 300px;
+  width: 300px;
+  margin-left: 28%;
+}
+
+.about-two {
+  background: skyblue;
+}
+
+.about-list {
+  text-align: left;
+  line-height: 32px;
+}
+
+.about-list-item {
+  list-style: decimal;
+}
+
+.word-one {
+  font-weight: bolder;
+}
+
+.word-two {
+  font-weight: bolder;
+  color: red;
+}
+
+.all {
+  font-size: 30px;
+}
+
+.all-para {
+  font-size: 20px;
+}
+
+/*PROGRAMS PAGE STYLES */
+
+.programs {
+  background: orange;
+  color: white;
+}
+
+.programs h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.programs p {
+  font-size: 17px;
+}
+
+.programs-two img {
+  width: 300px;
+  height: 300px;
+  margin-left: 30%;
+}
+
+.infant,
+.preschool {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 2%;
+  background: yellowgreen;
+}
+
+.infant-one,
+.infant-two,
+.infant-three {
+  width: 250px;
+  height: 285px;
+  border-radius: 5px;
+}
+
+.infant-one {
+  background: lightpink;
+}
+
+.infant-two {
+  background: skyblue;
+}
+
+.infant-three {
+  background: lightgoldenrodyellow;
+}
+
+.preschool {
+}
+
+.pre-one,
+.pre-two,
+.pre-three {
+  width: 250px;
+  height: 285px;
+  color: white;
+  border-radius: 5px;
+}
+
+.pre-one {
+  background: green;
+}
+
+.pre-two {
+  background: magenta;
+}
+
+.pre-three {
+  background: red;
+}

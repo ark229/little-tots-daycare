@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Red+Hat+Display:wght@300;700;900&family=Roboto:wght@300&family=Sansita+Swashed:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Little Tots</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item nav-item-img"><img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/50/000000/external-blocks-children-toys-vitaliy-gorbachev-lineal-color-vitaly-gorbachev-1.png" alt="logo" class="img-logo"></li>
+                <li class="nav-item nav-item-about"><a href="about.html">ABOUT</a></li>
+                <li class="nav-item nav-item-classes"><a href="programs.html">PROGRAMS</a></li>
+                <li class="nav-item nav-item-hire"><a href="#">LOGIN</a></li>
+                <li id="modalBtn" class="nav-item nav-item-donate"><button class="btn-main"><a href="#">CONTACT</a></button></li>
+                
+                <div id="simpleModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="closeBtn">&times;</span>
+                              
+                        </div>
+                        <div class="modal-body">
+                            <h1 class="modal-form-heading">Send Us A Message</h1>
+                            <p>IMPORTANT NOTE: Please include your primary phone number in your message.</p>
+
+                            <form method="post" name="contact-form" id="contact-form" onsubmit="alert('Your message has been submitted, and you will be contacted within 48 hours!')">
+                                <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                <br>
+                                <input type="email" name="email" class="form-control" placeholder="Email" required><br>
+                    
+                                <textarea name="nessage" class="form-control" placeholder="Type your message" rows="4" required></textarea><br>
+                    
+                                <input type="submit" class="form-control submit" value="SUBMIT" onsubmit="submitForm()">
+                                
+                            </form>
+                            
+                          </div>
+                        
+                          
+                      
+                    </div>
+                  </div>
+              
+                  
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="opportunity-container" >
+           
+                <h1 class="opp-header"><span class="l">L</span>ITTLE <span class="t">T</span>OTS <span class="d">D</span>AYCARE</h1>
+                <p class="opp-para">
+                    If you are looking for more than just childcare, you have come to the right place! With an average of over 15 years of experience among our teaching staff, your child will have a great opportunity to learn and grow at our center. We work hard to include each child's family in all that we do! So, plan on feeling welcomed into the Little Tots family. We are excited to meet you!
+                </p>
+            
+                <div class="opportunity-text">
+                    <button class="watch-btn"><a href="https://www.youtube.com/watch?v=2vYqjQnm3WY" target="_blank"><img src="https://img.icons8.com/ios/30/ffffff/circled-play--v1.png" alt="Press Play Logo Link" class="play-logo">PLAY</a></button>
+                </div>
+            
+        </section>
+
+        <section class="why-container">
+            <h2>Early childhood is the best time to learn!</h2>
+            <p>Right now, your child's brain is growing faster than it ever will in their whole life, making amazing connections every second. That's why every learning moment counts! Our classrooms are designed around your child's unique needs, and our curriculum is built from the latest research in early childhood development to help little minds grow. </p>
+        </section>
+
+        <section class="gym-visit-container">
+            <section class="gym-section">
+                <img src="play.gif" alt="blue box" class="img-gif">
+                <h3>VISIT THE DAYCARE</h3>
+                <p class="gym-text">Are you interested in enrolling your little one at Little Tots Daycare but, you would like to tour our facilities first? Just contact us, and we'll schedule a visit. </p>
+                <button class="btn-two"><a href="#">RESOURCES</a></button>
+            </section>
+
+            <section class="visit-section">
+                <img src="teacher.gif" alt="blue box" class="img-gif">
+                <h3>MEET OUR STAFF</h3>
+                <p class="visit-text">Our teachers and staff are dedicated to providing a safe, nurturing environment that cultivates self-esteem, creativity, and growth.</p>
+                <button class="btn-two"><a href="#">STAFF LIST</a></button>
+            </section>
+        </section>
+
+        <section class="volunteer-container">
+            <h2>VOLUNTEER AT LITTLE TOTS</h2>
+            <p>Our volunteers are people who dedicate their time and energy while also having the opportunity to make an important difference in the lives of our children. This voluntary role requires hard work, but it is rewarding for people who enjoy interacting with babies, toddlers, and children. Our dedicated volunteers are here to guide our Litte Tots as they grow and learn. Volunteers usually perform a variety of duties as they assist the daycare supervisor, teachers, or primary caretakers. If you would like to volunteer at Little Tots Daycare Center please click the link below. Your service is welcomed and appreciated!
+
+            </p>
+            <button class="btn-two volunteer-btn"><a href="#">VOLUNTEER</a></button>
+        </section>
+    </main>
+
+    <footer>
+        <section class="icons-footer">
+            <ul class="icon-list">
+                <li class="icon-items"><a href="https://facebook.com"><img src="https://img.icons8.com/ios-filled/35/000000/facebook--v1.png" alt="facebook icon"/></a></li>
+                <li class="icon-items"><a href="https://twitter.com"><img src="https://img.icons8.com/ios-filled/35/000000/twitter.png" alt="twitter icon"/></a></li>
+                <li class="icon-items"><a href="https://instagram.com"><img src="https://img.icons8.com/glyph-neue/35/000000/instagram-new.png" alt="Instagram"/></a></li>
+            </ul>
+        </section>
+
+        <section class="site-map-footer">
+            
+            <ul class="site-map-list">
+                <li><p>SITE MAP</p></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Donate</a></li>
+            </ul>
+        </section>
+
+        <section class="footer-address">
+            <p>VISIT US</p>
+            <span>
+                Little Tots Daycare Center <br>
+                50 Milk Street <br>
+                Boston, MA 02109 <br>
+                (410) 533-XXXX <br>
+                <a href="mailto:admin@LittleTotsBoston.org " class="mailto">admin@LittleTotsBoston.org</a>  
+            </span>
+
+        </section>
+
+        <section class="break-line-footer">
+            <p>Little Tots Daycare Center</p>
+            <p>
+                 
+                Tax-exempt, 501(c)3 Organization: <br> 
+                EIN 45-3915852</p>
+            <p>&copy;2022 Knight Development</p>
+            </p>
+        </section>
+    </footer>
+    
+<script src="script.js"></script> 
+</body>
+</html>
