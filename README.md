@@ -16,5 +16,6 @@
 
 ## 💼 The Website Wireframe
 <p>
-  ...
+........
 </p>
+
