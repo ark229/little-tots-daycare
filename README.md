@@ -64,3 +64,14 @@ form was submitted, and they will recieve a reply within 48 hours. Since I decid
 emails -- the user will be redirected to a formsubmit.co page that simply confirms that the email was sent. 
 
 ### 💼 Testing
+Testing is a very important stage of the web development and deployment process. The diagram below shows the testing philosophy that I followed during the creation of this website and its functions. 
+
+I created a live webserver testing environment via Visual Studio Code Live Server and PHP Server extensions. I also added a live server extension to google chrome called Live Web Server that I could easily toggle on and off. I liked this option, because I was able to leave the server on for as long as I wanted which easily enabled a local hosting environment. 
+
+The actual server address: localhost:3000
+The live sever address: 127.0.0.1:5500
+
+For the contact form I utilized formsubmit.co to host the mail server so I could test the sending and receiving of messages.
+This option worked well, and it could possibly be an option for a small business that is just starting up and needs a mail server to host on their site. Forms Submit is an open-source mail server that has several features, including security features that are built in.
+
+
