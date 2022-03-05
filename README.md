@@ -1,7 +1,7 @@
-<h1>Little Tots Daycare Center</h1>
+# Little Tots Daycare Center</h1>
 <br>
 
-<h2>Module 8 Web Project</h2>
+## Module 8 Web Project</h2>
 
 <p>
   This website serves as the business page for the Little Tots Daycare center.
@@ -14,7 +14,7 @@
 </p>
 <br>
 
-## 💼 The Website Wireframe
+### 💼 The Website Wireframe
 <p>
 ........
 </p>
